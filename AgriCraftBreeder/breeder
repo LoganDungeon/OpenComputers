@@ -1,0 +1,29 @@
+NAME
+  breeder - grow max stat agricraft seeds
+
+SYNOPSIS
+  breeder [OPTION]
+
+DESCRIPTION
+  Given two seeds, breeds them to maximum stats and 
+  produces a specific amount of 10/10/10 seeds
+
+OPTIONS
+  --init
+    Initialize the program and install the required 
+    libraries and config files
+
+  -d
+    Don't display graphical overview
+  
+  --seeds=[n]
+    Breed [n] max stat seeds, otherwise defaults to 2
+
+EXAMPLES
+  breeder
+    Starts the program in graphical mode and tells 
+    the robot to breed 2 max stat seeds
+
+  breeder -d --seeds=16
+    starts the program without graphcal overview and 
+    tells the robot to breed 16 max stat seeds
